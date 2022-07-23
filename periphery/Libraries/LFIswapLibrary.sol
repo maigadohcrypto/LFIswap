@@ -24,7 +24,7 @@ library LFIswapLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'd95ab6d733195f403fb2bf7c6616dd4b80521cb9308669c582bfc0e81154ddb4' // init code hash
+                hex'4a076dcb19faf5c5dcd170cce25e9ac2f6d735253943f5b6402d00ca38e2b40c' // init code hash
             ))));
     }
 
